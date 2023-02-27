@@ -17,7 +17,7 @@ substance_schema = SubstanceSchema()
 class AlembicInstructionResource(Resource):
     def get(self):
         """This should return past requests/commands."""
-        logging.error("my error")
+        logging.error("Declan's error")
         return "Bonjour!"
 
     def post(self):
